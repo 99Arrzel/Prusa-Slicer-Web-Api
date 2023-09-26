@@ -1,0 +1,11 @@
+./app/target/
+/app/target
+/app/target/
+./app/target/*
+./app/target/**/*
+./app/cargo.lock
+
+/app/.obsidian
+.obsidian
+*.lock
+target
