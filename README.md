@@ -8,13 +8,17 @@ Endpoint receives:
 As form data with ANY key at "host:3080/slice"
 The response is a JSON with this format
 ```json
-response: {
-    filament_used_mm: f32,
-    filament_used_cm3: f32,
-    filament_used_g: f32,
-    estimated_printing_time: String,
-    slicer_output: String,
+
+{
+  "response": {
+  "filament_used_mm":"f32",
+  "filament_used_cm3": "f32",
+  "filament_used_g": "f32",
+  "estimated_printing_time": "String",
+  "slicer_output": "String"
+  }
 }
+
 ```
 ### How to run
 All working on docker, just:
