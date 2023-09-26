@@ -6,6 +6,7 @@ Endpoint receives:
 - STL File 
 - INI File
 As form data with ANY key at "host:3080/slice"
+Endpoint returns:
 The response is a JSON with this format
 ```json
 
